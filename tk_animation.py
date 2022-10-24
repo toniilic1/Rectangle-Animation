@@ -1,7 +1,9 @@
 import tkinter as tk
+
 def main():
    root=tk.Tk()
-
+   root.title("Tk Animation")
+   
    WIDTH = 500
    HEIGHT = 500
    canvas=tk.Canvas(root,width=WIDTH,height=HEIGHT)
@@ -32,7 +34,7 @@ def main():
    redraw_blue()
    redraw_yellow()
    redraw_red()
-
+   
    root.mainloop()
 
 
